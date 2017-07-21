@@ -23,7 +23,7 @@ body {
   z-index: -2;
 }
 .bg-pattern {
-  background: url("../img/bg-pattern.png") repeat;
+  background: url("../img/photo.png") repeat;
   opacity: 0.5;
   width: 100vw;
   height: 100vh;
