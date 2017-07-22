@@ -10,7 +10,7 @@
 
     <!--Description-->
     
-        <meta name="description" content="开始不赘述，直接看官方简述1234Vue.js是一套构建用户界面的**渐进式框架**。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。">
+        <meta name="description" content="开始不赘述，直接看官方简述1234Vue.js是一套构建用户界面的 **渐进式框架**。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。">
     
 
     <!--Author-->
@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Vue.js 学习"/>
+        <meta property="og:title" content="Vue.js 学习(1)"/>
     
 
     <!--Open Graph Description-->
@@ -42,7 +42,7 @@
 
     <!-- Title -->
     
-    <title>Vue.js 学习 - 飞鱼丶秀</title>
+    <title>Vue.js 学习(1) - 飞鱼丶秀</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -147,7 +147,7 @@
     <div class="post-header">
         <h1 class="title">
             <a href="/2017/07/21/Vue-js-学习/">
-                Vue.js 学习
+                Vue.js 学习(1)
             </a>
         </h1>
         <div class="post-info">
@@ -165,7 +165,7 @@
         
 
         <!-- Post Content -->
-        <h3 id="开始不赘述，直接看官方简述"><a href="#开始不赘述，直接看官方简述" class="headerlink" title="开始不赘述，直接看官方简述"></a>开始不赘述，直接看官方简述</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Vue.js是一套构建用户界面的**渐进式框架**。</div><div class="line">与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。</div><div class="line">Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。</div><div class="line">当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。</div></pre></td></tr></table></figure>
+        <h3 id="开始不赘述，直接看官方简述"><a href="#开始不赘述，直接看官方简述" class="headerlink" title="开始不赘述，直接看官方简述"></a>开始不赘述，直接看官方简述</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Vue.js是一套构建用户界面的 **渐进式框架**。</div><div class="line">与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。</div><div class="line">Vue 的核心库只关注视图层，它不仅易于上手，还便于与第三方库或既有项目整合。</div><div class="line">当与单文件组件和 Vue 生态系统支持的库结合使用时，Vue 也完全能够为复杂的单页应用程序提供驱动。</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <h3 id="Begin"><a href="#Begin" class="headerlink" title="Begin"></a>Begin</h3><h4 id="列表输出"><a href="#列表输出" class="headerlink" title="列表输出"></a>列表输出</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">&lt;div id=&quot;app&quot;&gt;</div><div class="line">    &lt;ul&gt;</div><div class="line">	    &lt;li v-for=&quot;todo in todos&quot;&gt;</div><div class="line">		    &#123;&#123;todo.text&#125;&#125;</div><div class="line">		&lt;/li&gt;</div><div class="line">	&lt;/ul&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">JS代码：</div><div class="line">new Vue(&#123;</div><div class="line">    el:&quot;#app&quot;,</div><div class="line">	data:&#123;</div><div class="line">	    todos:[</div><div class="line">		    &#123;text:&quot;Learn Javascript&quot;&#125;,</div><div class="line">			&#123;text:&quot;Learn PHP&quot;&#125;,</div><div class="line">			&#123;text:&quot;Learn Node.js&quot;&#125;</div><div class="line">		]</div><div class="line">	&#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 <h4 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">&lt;div id=&quot;app&quot;&gt;</div><div class="line">    &lt;ul id=&quot;ul&quot;&gt;</div><div class="line">	    &lt;li v-for=&quot;item in items&quot;&gt;</div><div class="line">		    &#123;&#123; message &#125;&#125; : &#123;&#123; item.web &#125;&#125;</div><div class="line">		&lt;/li&gt;</div><div class="line">	&lt;/ul&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">JS代码：</div><div class="line">var ul = new Vue(&#123;</div><div class="line">    el:&quot;#ul&quot;,</div><div class="line">	data:&#123;</div><div class="line">	    message:&quot;学习Vue.js网站：&quot;,</div><div class="line">		items:[</div><div class="line">		    &#123;web:&quot;www.runoob.com&quot;&#125;,</div><div class="line">			&#123;web:&quot;www.w3school.com&quot;&#125;,</div><div class="line">			&#123;web:www.huizhi.com&#125;</div><div class="line">		]</div><div class="line">	&#125;</div><div class="line">&#125;);</div><div class="line">结果：</div><div class="line">学习Vue.js网站 : www.runoob.com</div><div class="line">学习Vue.js网站 : www.w3schoolb.com</div><div class="line">学习Vue.js网站 : www.huizhi.com</div></pre></td></tr></table></figure>
@@ -211,15 +211,19 @@
         <ul>
             
             <li>
-                <a class="footer-post" href="/2017/07/21/Vue-js-学习/">Vue.js 学习</a>
+                <a class="footer-post" href="/2017/07/22/Vue-js学习2/">Vue.js学习(2)</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2017/07/21/Vue-js-学习/">Vue.js 学习(1)</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2017/07/21/Vue-js-学习1/">Vue.js 学习(1)</a>
             </li>
             
             <li>
                 <a class="footer-post" href="/2017/07/21/hexo/">Hexo搭建的博客</a>
-            </li>
-            
-            <li>
-                <a class="footer-post" href="/2017/07/20/hello-world/">Hello World</a>
             </li>
             
         </ul>
